@@ -72,3 +72,23 @@ export const LinhaHorizontal = styled.hr`
   width: 100%;
   margin: 16px;
 `
+
+export const TarefaDone = styled.li`
+  opacity: .5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 46px;
+  margin-top: 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 6px 8px;
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: lightblue;
+  }
+
+  p {
+    text-decoration: line-through;
+  }
+`
